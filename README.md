@@ -1,97 +1,82 @@
-<h1>📕Washer Investigation Report</h1>
+<h1>📕Memaw Case Study</h1>
 
 
 
 <h2>Description</h2>
-This report details a forensic investigation of a computer belonging to John Washer, a suspect in several crimes including credit card fraud and check washing.
+This case study explores a discovery made through a DNA test. Nancy and her cousins learn a shocking truth: their biological grandfather is not who they thought he was. The story follows Nancy's journey as she grapples with this revelation and the question of whether to tell her mother.
 <br />
 
 
-<h2>Imaging the Hard Drive</h2>
+<h2>Exploration: Unveiling the Past</h2>
 
-- <b>Software: FTK Imager</b> 
-- <b>Process</b>
-    - The suspect's laptop hard drive was imaged after being removed from his home and brought to a lab environment.
-    - The system date and time were documented before imaging to assist with file timestamps.
-    -  A write blocker was used to ensure the imaging process wouldn't alter any data on the drive.
-  -   The image captured a bit-by-bit copy of all information on the drive.
-   - Figures 1.0-1.2 showcase the imaging process and details.
+- <b>Simple Brainstorming: </b> 
+  Nancy uses brainstorming to generate possible explanations for why her grandfather might not be biological. This could involve reasons like infidelity, adoption, or even a hospital mix-up.
+  
 <br />
 
-- <b>Verification</b>
-    - Hash values were generated to create a digital fingerprint of the image, ensuring its integrity.
-    - Figure 1.3 shows the verification of the hash values.
+
+<h2>Exploration Findings: A Sea of Possibilities</h2>
+
+- <b>Possible Reasons: </b> 
+  Brainstorming might reveal infidelity as a potential reason for the discrepancy.
+<br />
+
+<h2>Diagnosis: Digging Deeper</h2>
+
+- <b>Key Assumption Check: </b> 
+  Nancy analyzes the situation further. She identifies key players (parents, grandparents, cousins) and makes assumptions about their roles. For example, she might assume her mother would be heartbroken to learn the truth about her father.
+<br />
+
+<h2>Diagnosis Findings: The Human Element</h2>
+
+- <b>Key Players: </b> 
+  This step identifies the main characters in the family drama.
+ - <b>Assumptions:</b>
+   Nancy might uncover assumptions that color the situation, like her mother's potential reaction to the news.
+<br />
+
+<h2>Decision Time: A Delicate Balance</h2>
+
+- <b>Pros-Cons-Faults and Fixes: </b> 
+  Nancy weighs the pros and cons of telling her mother. Pros could include closure and the right to know, while cons could be emotional distress or family tension. Nancy might also consider approaches to soften the blow, like gathering evidence or seeking support from a family member.
+<br />
+
+<h2>Decision Support Findings: Weighing the Impact</h2>
+
+   - <b>Pros of Telling: </b> 
+ Nancy considers the benefits of telling her mother, like gaining closure or having a right to know the truth.
+ - <b>Cons of Telling:  </b> 
+  She also weighs the potential downsides, like causing emotional pain or disrupting family dynamics.
+ - <b>Possible Solutions: </b> 
+ Finally, Nancy brainstorms ways to navigate the situation, such as finding evidence or confiding in a trusted family member.
+<br />
 
 
+<h2>Conclusion: A Difficult Choice</h2>
+Through careful analysis, Nancy reaches a difficult decision. She must decide whether to tell her mother the truth and potentially cause hardship, or keep the secret and live with the burden.
 
-<h2>Active File Review</h2>
+This breakdown uses the same framework you outlined, but incorporates details specific to the "Nancy story.
+<br />
 
-- <b>Software: Axiom </b> 
-- <b>Process</b>
-    - The disk image was loaded into Axiom for forensic analysis.
-  
-- <b>Web Activity</b>
-     -  Internet browser history was reviewed, including:
-          - Chrome Searches (Figure 1.5)
-          - Internet Explorer Typed URLs 
-          - Internet Explorer Cache Records 
-    - Analysis revealed potentially suspicious searches related to identity theft and check washing.
-  
-- <b>Social Media</b>
-     -  Social media usage was investigated, with Flickr being the most frequently used platform.
- 
-- <b>Media Analysis</b>
-     -  Recovered photos included:
-          - Images related to web search history (destroyed hard drives, maps) 
-          - A disturbing image of a young girl smoking       
-    - Recovered documents included:
-         - Incriminating documents like "washers to do list" and "X marks the spot" 
-         - Encrypted documents that couldn't be accessed 
-
-- <b>Email Analysis</b>
-     -  Emails retrieved from the computer were examined.
- 
-- <b>Connected Devices</b>
-     -  A list of all devices ever connected to the computer was identified.
-  
-<h2>Encryption</h2>
-   -  The report notes the presence of encryption software that prevented access to some files (five encrypted files were identified).
-
-<h2>Conclusion</h2>
-
-   - The investigation revealed evidence potentially linking John Washer to the suspected crimes.
-   - Web history, documents, and email exchanges suggested involvement in credit card fraud, identity theft, and check washing.
-  - The use of unencrypted text documents facilitated the identification of potential plans and codewords used by the suspects.
- - The presence of multiple user profiles on the computer indicates the possibility of other individuals involved.
-
-
-
-<h2>Digtal Forensics Walkthrough</h2>
+<h2>MeMaw Case Study Walkthrough</h2>
 
 <p align="center">
-Figure 1.0: Case Information for Hard Drive Image <br/>
-<img src="https://i.imgur.com/spdEfcY.png" height="80%" width="80%" alt="Washer Report Steps"/>
+Diagnostic Technique: Key assumptions Check <br/>
+<img src="https://i.imgur.com/XzeYGQ5.png" height="80%" width="80%" alt="memaw Report Steps"/>
+<img src="https://i.imgur.com/QT98N2Q.png" height="80%" width="80%" alt="memaw Report Steps"/>
+
 <br />
 <br />
-Figure 1.1: Destination Path for Hard Drive Image  <br/>
-<img src="https://i.imgur.com/OD7NbIt.png" height="80%" width="80%" alt="Washer Report Steps"/>
+Decision Support Technique: Pros-Cons-Faults and Fixes  <br/>
+<img src="https://i.imgur.com/xmMozqe.png" height="80%" width="80%" alt="memaw Report Steps"/>
 <br />
-<br />
-Figures 1.2: Hard Drive Imaging Progress <br/>
-<img src="https://i.imgur.com/YVSUask.png" height="80%" width="80%" alt="Washer Report Steps"/>
-<br />
-<br />
-Figure 1.3: Hash Value Verification for Hard Drive Image <br/>
-<img src="https://i.imgur.com/rbqaidC.png" height="80%" width="80%" alt="Washer Report Steps"/>
-<br />
-<br />
-Figures 1.4: Loading Washer's Disk Image into Axiom  <br/>
-<img src="https://i.imgur.com/1DK2Ptf.png" height="80%" width="80%" alt="Washer Report Steps"/>
-<br />
-<br />
-Figures 1.5: Suspicious Chrome Searches  <br/>
-<img src="https://i.imgur.com/bvqhlXU.png" height="80%" width="80%" alt="Washer Report Steps"/>
-<br />
+
+<h2>References</h2>
+      - <b> Meyer, C. (2021, May 14). </b> Women cheat just as much as men-this may explain why. Brides. Retrieved December 10, 2021, from https://www.brides.com/reasons-women-cheat-in-relationships-1103341
+    - <b>Women's experiences of domestic violence and abuse.</b> 
+    Getting help from family and friends for domestic violence and abuse. (n.d.). Retrieved December 11, 2021, from https://healthtalk.org/womens-experiences-domestic-violence-and-abuse/getting-help-from-family-and-friends-for-domestic-violence-and-abuse  
+     -<b> 11 common patterns of verbal abuse. One Love Foundation. (2019, August 21).</b> Retrieved December 11, 2021, from https://www.joinonelove.org/learn/11-common-patterns-verbal-abuse/
+
 <br />
 
 </p>
